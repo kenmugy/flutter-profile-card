@@ -8,9 +8,15 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         backgroundColor: Colors.teal,
-        body: Column(
-          children: <Widget>[
-          ],
+        body: SafeArea(
+          child: Column(
+            children: <Widget>[
+              CircleAvatar(
+                radius: 55.0,
+                backgroundImage: AssetImage('images/me.jpg'),
+              ),
+            ],
+          ),
         ),
       ),
     );
