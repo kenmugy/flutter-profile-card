@@ -16,15 +16,24 @@ class MyApp extends StatelessWidget {
                 radius: 55.0,
                 backgroundImage: AssetImage('images/me.jpg'),
               ),
-              Text("kenny mugy",
+              Text(
+                "kenny mugy",
                   style: TextStyle(
                       fontFamily: 'GloriaHallelujah',
                       fontSize: 30,
                       color: Colors.white,
                       fontWeight: FontWeight.bold)),
-              Text("FLUTTER DEV",
+              Text(
+                "FLUTTER DEVELOPER",
                   style: TextStyle(
                       fontSize: 20, color: Colors.white, letterSpacing: 4)),
+                      SizedBox(
+                        height: 20.0,
+                        width: 200,
+                        child: Divider(
+                          color: Colors.teal[100],
+                        ),
+                      ),
               Card(
                   margin: EdgeInsets.symmetric(horizontal: 40, vertical: 15),
                   child: Padding(
