@@ -32,6 +32,28 @@ class MyApp extends StatelessWidget {
                         )
                         ),
               ),
+              Container(
+                color: Colors.white,
+                child: Row(
+                  children: <Widget>[
+                  Icon(
+                    Icons.phone,
+                    size: 30,
+                    color: Colors.teal[900],
+                  ),
+                  SizedBox(
+                    width: 20,
+                  ),
+                  Text(
+                    "+256 777 705 028",
+                    style: TextStyle(
+                      color: Colors.teal[900],
+                      fontFamily: 'GloriaHallelujah',
+                      fontSize: 20
+                    )
+                  )
+                ],)
+              )
             ],
           ),
         ),
