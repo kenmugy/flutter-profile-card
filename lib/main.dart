@@ -16,16 +16,22 @@ class MyApp extends StatelessWidget {
                 backgroundImage: AssetImage('images/me.jpg'),
               ),
               Container(
-                child: Text(
-                  "Ken mugy",
-                  style: TextStyle(
-                    fontFamily: 'GloriaHallelujah',
-                    fontSize: 40, 
-                    color: Colors.white,
-                    fontWeight: FontWeight.bold
-                    )
-                ),
-              )
+                child: Text("kenny mugy",
+                    style: TextStyle(
+                        fontFamily: 'GloriaHallelujah',
+                        fontSize: 30,
+                        color: Colors.white,
+                        fontWeight: FontWeight.bold)),
+              ),
+              Container(
+                child: Text("FLUTTER DEV",
+                    style: TextStyle(
+                        fontSize: 20,
+                        color: Colors.white,
+                        letterSpacing: 4
+                        )
+                        ),
+              ),
             ],
           ),
         ),
