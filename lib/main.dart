@@ -44,7 +44,7 @@ class MyApp extends StatelessWidget {
                             size: 30,
                             color: Colors.teal[900],
                           ),
-                          title: Text("+256 777 705 028",
+                          title: Text("+ 256 777 705 028",
                               style: TextStyle(
                                   color: Colors.teal[900],
                                   fontFamily: 'GloriaHallelujah',
