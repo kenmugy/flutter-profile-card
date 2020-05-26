@@ -26,50 +26,36 @@ class MyApp extends StatelessWidget {
                       fontSize: 20, color: Colors.white, letterSpacing: 4)),
               Card(
                   margin: EdgeInsets.symmetric(horizontal: 40, vertical: 15),
-                  color: Colors.white,
                   child: Padding(
-                    padding: const EdgeInsets.all(8.0),
-                    child: Row(
-                      children: <Widget>[
-                        Icon(
-                          Icons.phone,
-                          size: 30,
-                          color: Colors.teal[900],
-                        ),
-                        SizedBox(
-                          width: 20,
-                        ),
-                        Text("+256 777 705 028",
-                            style: TextStyle(
-                                color: Colors.teal[900],
-                                fontFamily: 'GloriaHallelujah',
-                                fontSize: 20))
-                      ],
-                    ),
-                  )),
+                      padding: const EdgeInsets.all(8.0),
+                      child: ListTile(
+                          leading: Icon(
+                            Icons.phone,
+                            size: 30,
+                            color: Colors.teal[900],
+                          ),
+                          title: Text("+256 777 705 028",
+                              style: TextStyle(
+                                  color: Colors.teal[900],
+                                  fontFamily: 'GloriaHallelujah',
+                                  fontSize: 20))))),
               Card(
-                  color: Colors.white,
                   margin: EdgeInsets.symmetric(horizontal: 40),
                   child: Padding(
                     padding: const EdgeInsets.all(8.0),
-                    child: Row(
-                      children: <Widget>[
-                        Icon(
-                          Icons.email,
-                          color: Colors.teal[900],
-                        ),
-                        SizedBox(
-                          width: 20,
-                        ),
-                        Text(
-                          "kenmugy@gmail.com",
-                          style: TextStyle(
-                              fontSize: 20,
-                              letterSpacing: 3,
-                              color: Colors.teal[800],
-                              fontFamily: "GloriaHallelujah"),
-                        )
-                      ],
+                    child: ListTile(
+                      leading: Icon(
+                        Icons.email,
+                        color: Colors.teal[900],
+                      ),
+                      title: Text(
+                        "kenmugy@gmail.com",
+                        style: TextStyle(
+                            fontSize: 18,
+                            letterSpacing: 3,
+                            color: Colors.teal[800],
+                            fontFamily: "GloriaHallelujah"),
+                      ),
                     ),
                   ))
             ],
@@ -79,3 +65,7 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+
+/*
+
+                    */
