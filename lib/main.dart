@@ -15,69 +15,59 @@ class MyApp extends StatelessWidget {
                 radius: 55.0,
                 backgroundImage: AssetImage('images/me.jpg'),
               ),
-              Container(
-                child: Text("kenny mugy",
-                    style: TextStyle(
-                        fontFamily: 'GloriaHallelujah',
-                        fontSize: 30,
-                        color: Colors.white,
-                        fontWeight: FontWeight.bold)),
-              ),
-              Container(
-                child: Text("FLUTTER DEV",
-                    style: TextStyle(
-                        fontSize: 20,
-                        color: Colors.white,
-                        letterSpacing: 4
-                        )
-                        ),
-              ),
-              Container(
-                margin: EdgeInsets.symmetric(horizontal: 40,vertical: 15),
-                padding: EdgeInsets.all(10),
-                color: Colors.white,
-                child: Row(
-                  children: <Widget>[
-                  Icon(
-                    Icons.phone,
-                    size: 30,
-                    color: Colors.teal[900],
-                  ),
-                  SizedBox(
-                    width: 20,
-                  ),
-                  Text(
-                    "+256 777 705 028",
-                    style: TextStyle(
-                      color: Colors.teal[900],
+              Text("kenny mugy",
+                  style: TextStyle(
                       fontFamily: 'GloriaHallelujah',
-                      fontSize: 20
-                    )
-                  )
-                ],)
-              ),
+                      fontSize: 30,
+                      color: Colors.white,
+                      fontWeight: FontWeight.bold)),
+              Text("FLUTTER DEV",
+                  style: TextStyle(
+                      fontSize: 20, color: Colors.white, letterSpacing: 4)),
               Container(
-                color: Colors.white,
-                margin: EdgeInsets.symmetric(horizontal: 40),
-                padding: EdgeInsets.all(10),
-                child: Row(children: <Widget>[
-                  Icon(
-                    Icons.email,
-                    color: Colors.teal[900],
-                  ),
-                  SizedBox(
-                    width: 20,
-                  ),
-                  Text(
-                    "kenmugy@gmail.com",
-                    style: TextStyle(
-                      fontSize: 20,
-                      letterSpacing: 3,
-                      fontFamily: "GloriaHallelujah"
-                    ),
-                  )
-                ],)
-              )
+                  margin: EdgeInsets.symmetric(horizontal: 40, vertical: 15),
+                  padding: EdgeInsets.all(10),
+                  color: Colors.white,
+                  child: Row(
+                    children: <Widget>[
+                      Icon(
+                        Icons.phone,
+                        size: 30,
+                        color: Colors.teal[900],
+                      ),
+                      SizedBox(
+                        width: 20,
+                      ),
+                      Text("+256 777 705 028",
+                          style: TextStyle(
+                              color: Colors.teal[900],
+                              fontFamily: 'GloriaHallelujah',
+                              fontSize: 20))
+                    ],
+                  )),
+              Container(
+                  color: Colors.white,
+                  margin: EdgeInsets.symmetric(horizontal: 40),
+                  padding: EdgeInsets.all(10),
+                  child: Row(
+                    children: <Widget>[
+                      Icon(
+                        Icons.email,
+                        color: Colors.teal[900],
+                      ),
+                      SizedBox(
+                        width: 20,
+                      ),
+                      Text(
+                        "kenmugy@gmail.com",
+                        style: TextStyle(
+                            fontSize: 20,
+                            letterSpacing: 3,
+                            color: Colors.teal[800],
+                            fontFamily: "GloriaHallelujah"),
+                      )
+                    ],
+                  ))
             ],
           ),
         ),
