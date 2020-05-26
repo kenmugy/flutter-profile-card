@@ -24,9 +24,8 @@ class MyApp extends StatelessWidget {
               Text("FLUTTER DEV",
                   style: TextStyle(
                       fontSize: 20, color: Colors.white, letterSpacing: 4)),
-              Container(
+              Card(
                   margin: EdgeInsets.symmetric(horizontal: 40, vertical: 15),
-                  padding: EdgeInsets.all(10),
                   color: Colors.white,
                   child: Row(
                     children: <Widget>[
@@ -45,10 +44,9 @@ class MyApp extends StatelessWidget {
                               fontSize: 20))
                     ],
                   )),
-              Container(
+              Card(
                   color: Colors.white,
                   margin: EdgeInsets.symmetric(horizontal: 40),
-                  padding: EdgeInsets.all(10),
                   child: Row(
                     children: <Widget>[
                       Icon(
