@@ -21,3 +21,8 @@ flutter:
 
   assets:
     - images/
+
+  fonts:
+    - family: GloriaHallelujah
+      fonts:
+        - asset: fonts/GloriaHallelujah-Regular.ttf
